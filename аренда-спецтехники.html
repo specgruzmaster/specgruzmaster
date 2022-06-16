@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница </title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,800&_v=20220616141834' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.min.css?_v=20220616141834">
+</head>
+
+<body>
+	<!-- WRAPPER -->
+	<div class="wrapper">
+		<!-- HEADER -->
+		<header class="header">
+	<div class="container">
+		<nav class="navbar navbar__row">
+			<div class="navbar">
+				<a href="https://спецгруз.бел/" class="navbar__logo">
+					<img src="img/логотип.svg" alt="СпецГрузМастер">
+				</a>
+				<div class="header__burger">
+					<i></i>
+				</div>
+			</div>
+			<div class="navbar">
+				<ul class="nav navbar navbar__nav">
+					<li class="">
+						<a href="index.html" class="nav__link">
+							<span>
+								Сыпучие материалы
+							</span>
+						</a>
+					</li>
+					<li class="active">
+						<a href="аренда-спецтехники.html" class="nav__link">
+							<span>
+								Аренда спецтехники
+							</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="автосервис.html" class="nav__link">
+							<span>
+								Грузовое СТО
+							</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="утилизация-зданий.html" class="nav__link">
+							<span>
+								Утилизация зданий
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar__wrapper">
+				<div class="navbar__social">
+					<div class="navbar__discription">
+						<span>
+							Задайте вопрос напрямую в:
+						</span>
+					</div>
+					<div class="navbar__social-media">
+						<a href="" class="navbar__social-wrapper">
+							<img src="img/social/вайбер.svg" alt="Вайбер.svg">
+							<div class="navbar__social-title">Вайбер</div>
+						</a>
+						<a href="" class="navbar__social-wrapper">
+							<img src="img/social/телеграм.svg" alt="Телеграм.svg">
+							<div class="navbar__social-title">Телеграм</div>
+						</a>
+					</div>
+					<div class="navbar__subdiscription">
+						<img src="img/время.svg" alt="часы">
+						<span>среднее время ответа 30 секунд</span>
+					</div>
+				</div>
+				<div class="navbar__phone">
+					<div class="navbar__discription">
+						<span>
+							Или звоните:
+						</span>
+					</div>
+					<div class="navbar__phone-wrapper">
+						<div class="navbar__social-wrapper">
+							<img src="img/social/Телефон.svg" alt="Телефон.svg">
+						</div>
+						<div class="navbar__phone-list">
+							<div>
+								<a href="">+375 (44) 555-70-74</a>
+							</div>
+							<div>
+								<a href="">+375 (44) 592-12-33</a>
+							</div>
+						</div>
+					</div>
+					<div class="navbar__subdiscription">
+						<img src="img/время.svg" alt="часы">
+						<span>Принимаем заказы с 9:00 до 21:00</span>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+		<!-- BANNER -->
+		<!-- BANNER -->
+		<section class="banner">
+	<div class="container banner__container">
+		<picture><source srcset="img/экскаватор.webp" type="image/webp"><img class="banner__images excavator" src="img/экскаватор.png" alt="Самосвал с песком.png"></picture>
+		<div class="banner__subtitle">
+			<ul class="banner__subtitle-list">
+				<li class="banner__subtitle-item">
+					<span class="banner__subtitle-check"></span>
+					<div class="banner__subtitle-text">Экскаватор</div>
+				</li>
+				<li class="banner__subtitle-item">
+					<span class="banner__subtitle-check"></span>
+					<div class="banner__subtitle-text">Бульдозер</div>
+				</li>
+				<li class="banner__subtitle-item">
+					<span class="banner__subtitle-check"></span>
+					<div class="banner__subtitle-text">Грунтовый каток</div>
+				</li>
+				<li class="banner__subtitle-item">
+					<span class="banner__subtitle-check"></span>
+					<div class="banner__subtitle-text">Экскаватор-погрузчик</div>
+				</li>
+				<li class="banner__subtitle-item d-none">
+					<span class="banner__subtitle-check"></span>
+					<div class="banner__subtitle-text"></div>
+				</li>
+			</ul>
+		</div>
+		<div class="banner__title">
+			<h1>Аренда спецтехники у нас - это качественное обслуживание при минимальных расходах</h1>
+			<p>широкий выбор любой строительной и погрузочно-разгрузочной техники</p>
+		</div>
+		<div class="banner__marketing">
+			<form class="banner__form">
+				<input type="hidden" name="project_name" value="спецгруз.бел">
+				<input type="hidden" name="admin_email" value="info@спецгруз.бел">
+				<input type="hidden" name="form_subject" value="Сыпучие грузоперевозки!">
+
+				<div class="banner__form-group">
+					<input class="banner__form-input" type="text" name="Номер телефона" placeholder="Ваш номер телефона:*"
+						required oninvalid="setCustomValidity('Заполните обязательное поле!')"
+						oninput="setCustomValidity('')">
+					<span class="banner__form-icon-phone"></span>
+					<input type="submit" class="banner__form-button" value="Отправить">
+				</div>
+			</form>
+			<div class="banner__form-politica">
+				Отправляя данную форму Вы соглашаетесь с <a href="">Политикой Конфиденциальности</a>
+			</div>
+		</div>
+		<div class="banner__marketing-text">
+			<span>Бесплтаная консультация</span><br>Наш менеджер перезвонит Вам в течении 30 минут.
+		</div>
+	</div>
+</section>
+		<!-- MAIN -->
+		<main class="main">
+
+		</main>
+	</div>
+	<!-- FOOTER -->
+	<footer>
+</footer>
+
+
+</body>
+
+<!-- main JS -->
+<script src="js/app.min.js?_v=20220616141834"></script>
+
+</html>
